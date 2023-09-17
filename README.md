@@ -1,5 +1,25 @@
 # active-tasks
 
+Date : 18th Sept 2023
+
+# Follow proper coding naming convention.
+
+## Design Patterns
+
+Understand Composition and Aggregation.
+
+- Singleton
+- Factory
+- Template
+- Strategy
+- Builder
+- Prototype
+
+Know why the above design patterns used.
+
+Write README.md notes. Write code in a maven based project file examples with proper naming convention. All this can be kept in a single project called
+design-patterns. No need to create a new repository on git for this.
+
 ## UML diagrams
 
 Learning
