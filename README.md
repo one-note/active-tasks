@@ -2,11 +2,26 @@
 
 Date : 18th Sept 2023
 
-# Follow proper coding naming convention.
+# Rules
+- Follow proper coding naming convention. 
+- Keep everything inside a single git repository. But yes you can create many projects inside the repository.
+- For coding tasks always use maven based project.
+- Create PR for review.
+- Dont commit target directory.
+- For every section you should have a README.md file. Let say the section is Maven. Then you can create a READMe.md file under maven/README.md
+  
+## Maven
+
+- Create Maven project called maven-hello-world
+- Execute commands like clean, compile, test, package, install, verify. Know why they are used.
+- Add junit 4 dependency or junit 5 dependency
+- Write test case for Calculator Program. Your test code must be under src/test/java
+- In the same project do this example: https://www.baeldung.com/java-apache-commons-text
+
 
 ## Design Patterns
 
-Understand Composition and Aggregation.
+Understand Composition and Aggregation. Has-A and Is-A relationship.
 
 - Singleton
 - Factory
