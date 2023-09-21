@@ -1,0 +1,57 @@
+
+
+Date : 18th Sept 2023
+
+## Maven
+
+- Create Maven project called maven-hello-world
+- Execute commands like clean, compile, test, package, install, verify. Know why they are used.
+- Add junit 4 dependency or junit 5 dependency
+- Write test case for Calculator Program. Your test code must be under src/test/java
+- In the same project do this example: https://www.baeldung.com/java-apache-commons-text
+
+
+## Design Patterns
+
+Understand Composition and Aggregation. Has-A and Is-A relationship.
+
+- Singleton
+- Factory
+- Template
+- Strategy
+- Builder
+- Prototype
+
+Know why the above design patterns used.
+
+Write README.md notes. Write code in a maven based project file examples with proper naming convention. All this can be kept in a single project called
+design-patterns. No need to create a new repository on git for this.
+
+## Data Structure
+- LinkedList (custom). Dont use java collection provided LinkedList. Do 10 different problems on LinkedList.
+- Array. Do 5 different problems.
+- Row wise traveral of array. Column wise traversal of array.
+  
+## Logging With Logback
+
+- https://mkyong.com/logging/slf4j-logback-tutorial/
+- Why logging used.
+- What is slf4j or logback
+- What are logging levels
+- What are appenders
+- What are rolling policies avaialable.
+  
+## UML diagrams
+
+Learning
+---
+
+- https://www.youtube.com/watch?v=HuL9EMx8NQo (class diagram)
+- https://www.youtube.com/watch?v=VnRQ5CNC4Fs (sequence diagram)
+- https://www.youtube.com/watch?v=LyhTDsjjjrE (activity diagram)
+- https://www.youtube.com/watch?v=Hj6Lkoi_VoM (case diagram)
+
+Task
+---
+
+Using draw.io design diagrams as didcussed above but it should not be what we learned above. refer other videos.
