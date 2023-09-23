@@ -1,0 +1,35 @@
+<configuration>
+
+    <appender name="File" class="ch.qos.logback.core.FileAppender">
+        <!-- Specify the log file path -->
+        <file>C:\Users\user\Desktop\mylog.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/archived/app.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <!-- each archived file, size max 10MB -->
+            <maxFileSize>10MB</maxFileSize>
+            <!-- total size of all archive files, if total size > 20GB, it will delete old archived file -->
+            <totalSizeCap>20GB</totalSizeCap>
+            <!-- 60 days to keep -->
+            <maxHistory>60</maxHistory>
+        </rollingPolicy>
+        <logger name="org.example" level="${my-log.logging.level:-DEBUG}"/>
+        <encoder>
+            <pattern>%date [%level] [%thread] %logger{10} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+
+        <logger name="org.example" level="${my-log.logging.level:-DEBUG}"/>
+        <encoder>
+            <pattern>%date [%level] [%thread] %logger{10} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+         <appender-ref ref="Console"/>
+        <appender-ref ref="File"/>
+    </root>
+</configuration>
+
+
