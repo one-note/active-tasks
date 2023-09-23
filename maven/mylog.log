@@ -1,0 +1,70 @@
+2023-09-21 12:24:43,722 [ERROR] [main] o.e.SLF4JDemo - This is a warning message.
+2023-09-21 12:24:43,731 [ERROR] [main] o.e.SLF4JDemo - This is an error message.
+java.lang.RuntimeException: Sample Exception
+	at org.example.SLF4JDemo.main(SLF4JDemo.java:12)
+2023-09-21 12:28:34,262 [ERROR] [main] o.e.SLF4JDemo - This is a warning message.
+2023-09-21 12:28:34,270 [ERROR] [main] o.e.SLF4JDemo - This is an error message.
+java.lang.RuntimeException: Sample Exception
+	at org.example.SLF4JDemo.main(SLF4JDemo.java:12)
+2023-09-21 12:36:21,035 [ERROR] [main] o.e.HelloWorld - This is a catastrophic error
+2023-09-21 12:49:22,474 [ERROR] [main] o.e.SLF4JDemo - This is a warning message.
+2023-09-21 12:49:22,484 [ERROR] [main] o.e.SLF4JDemo - This is an error message.
+java.lang.RuntimeException: Sample Exception
+	at org.example.SLF4JDemo.main(SLF4JDemo.java:12)
+2023-09-21 12:51:29,089 [ERROR] [main] o.e.SLF4JDemo - This is a warning message.
+2023-09-21 12:51:29,098 [ERROR] [main] o.e.SLF4JDemo - This is an error message.
+java.lang.RuntimeException: Sample Exception
+	at org.example.SLF4JDemo.main(SLF4JDemo.java:13)
+2023-09-21 12:53:23,384 [INFO] [main] o.e.SLF4JDemo - This is an info message.
+2023-09-21 12:53:23,388 [ERROR] [main] o.e.SLF4JDemo - This is a warning message.
+2023-09-21 12:53:23,392 [ERROR] [main] o.e.SLF4JDemo - This is an error message.
+java.lang.RuntimeException: Sample Exception
+	at org.example.SLF4JDemo.main(SLF4JDemo.java:13)
+2023-09-21 16:31:22,835 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 16:31:22,838 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 16:31:22,839 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 16:31:22,839 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 16:31:22,839 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 16:31:22,839 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
+2023-09-21 16:31:39,870 [ERROR] [main] o.e.SimpleCalculator - Error: Division by zero is not allowed.
+2023-09-21 16:36:52,202 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 16:36:52,205 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 16:36:52,206 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 16:36:52,206 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 16:36:52,206 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 16:36:52,206 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
+2023-09-21 16:37:09,566 [INFO] [main] o.e.SimpleCalculator - The user has selected an invalid operation
+2023-09-21 16:37:09,567 [ERROR] [main] o.e.SimpleCalculator - Error: Number can not be divided by zero
+2023-09-21 16:39:37,815 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 16:39:37,820 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 16:39:37,820 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 16:39:37,821 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 16:39:37,821 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 16:39:37,821 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
+2023-09-21 16:40:25,849 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 16:40:25,854 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 16:40:25,855 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 16:40:25,856 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 16:40:25,856 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 16:40:25,856 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
+2023-09-21 16:40:32,238 [ERROR] [main] o.e.SimpleCalculator - Invalid operation selected.
+2023-09-21 17:12:31,541 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 17:12:31,545 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 17:12:31,545 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 17:12:31,545 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 17:12:31,546 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 17:12:31,546 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
+2023-09-21 17:12:39,448 [ERROR] [main] o.e.SimpleCalculator - Invalid operation selected.
+2023-09-21 17:14:10,354 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 17:14:10,359 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 17:14:10,359 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 17:14:10,359 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 17:14:10,359 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 17:14:10,359 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
+2023-09-21 17:14:16,797 [ERROR] [main] o.e.SimpleCalculator - Invalid operation selected.
+2023-09-21 17:18:15,578 [INFO] [main] o.e.SimpleCalculator - Simple SimpleCalculator
+2023-09-21 17:18:15,581 [INFO] [main] o.e.SimpleCalculator - Available Operations:
+2023-09-21 17:18:15,582 [INFO] [main] o.e.SimpleCalculator - 1. Addition (+)
+2023-09-21 17:18:15,582 [INFO] [main] o.e.SimpleCalculator - 2. Subtraction (-)
+2023-09-21 17:18:15,582 [INFO] [main] o.e.SimpleCalculator - 3. Multiplication (*)
+2023-09-21 17:18:15,582 [INFO] [main] o.e.SimpleCalculator - 4. Division (/)
