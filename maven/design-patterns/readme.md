@@ -1,10 +1,12 @@
+![image](https://github.com/Ansu-s/need_to_study_this/assets/130679461/e05d836c-fa76-4e7b-bb18-827e3dbe9621)
+
 <div style="text-align:center">
 
-![image](https://github.com/Ansu-s/need_to_study_this/assets/130679461/b9186087-d6ac-471c-9271-4d8c52e4980d)
 
 # Design patterns in java
 
-</div>
+</div>  
+
 
 ## Singleton Pattern :
 
