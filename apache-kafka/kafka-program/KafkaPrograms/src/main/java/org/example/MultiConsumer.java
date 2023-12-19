@@ -33,7 +33,7 @@ public class MultiConsumer {
 
 
         for (int i = 0; i < 3; i++) {
-            Consumer<String, String> consumer = createConsumer(); // Create a new consumer instance
+            Consumer<String, String> consumer = createConsumer(); 
             Thread consumerThread = new Thread(() -> consumeMessages(consumer));
             consumerThread.start();
         }
