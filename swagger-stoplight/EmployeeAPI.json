@@ -1,0 +1,182 @@
+{
+  "openapi": "3.0.0",
+  "x-stoplight": {
+    "id": "rfcmy023f4i71"
+  },
+  "info": {
+    "title": "Employee API",
+    "version": "1.0",
+    "description": "This can perform different operations related to the  the Employees."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/employee": {
+      "get": {
+        "summary": "Get all Employee",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "operationId": "get-empid",
+        "x-stoplight": {
+          "id": "fxtbgpgx78bok"
+        },
+        "description": "This will retrive the details of the given employee.",
+        "x-extension-1": "x"
+      },
+      "post": {
+        "summary": "Add all Employee",
+        "operationId": "post-empid",
+        "responses": {
+          "201": {
+            "description": "Created new record"
+          }
+        },
+        "x-stoplight": {
+          "id": "mf4ddsxgoni9z"
+        },
+        "description": "This will add an employee to the database.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Employee"
+              }
+            }
+          }
+        }
+      },
+      "parameters": []
+    },
+    "/employee/{id}/": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer"
+          },
+          "name": "id",
+          "in": "path",
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Get a single Employee",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Employee"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-employee-id",
+        "x-stoplight": {
+          "id": "ccyy1nu9imcr5"
+        }
+      },
+      "post": {
+        "summary": "Add a specific employee",
+        "operationId": "post-employee-id",
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "x-stoplight": {
+          "id": "coi3a8ztcl6q2"
+        },
+        "description": "This will add a specific employee.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Employee"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deleting an employee",
+        "operationId": "delete-employee-id",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "default": "Employee deleted"
+                },
+                "examples": {
+                  "Example 1": {
+                    "value": "Employee deleted"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-stoplight": {
+          "id": "fvbxarwgzeb4v"
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Employee": {
+        "title": "Employee",
+        "x-stoplight": {
+          "id": "99dp7mw7ndohm"
+        },
+        "type": "object",
+        "description": "The employee object has two fields one is id and name",
+        "x-examples": {
+          "Example 1": {
+            "id": 1,
+            "name": "Ram",
+            "address": "Mumbai"
+          }
+        },
+        "properties": {
+          "id": {
+            "type": "integer",
+            "x-stoplight": {
+              "id": "61x6l5m1q9jt1"
+            },
+            "format": "int64",
+            "default": 1,
+            "minimum": 1,
+            "maximum": 1000,
+            "exclusiveMinimum": false
+          },
+          "name": {
+            "type": "string",
+            "x-stoplight": {
+              "id": "z1n3ep047rbo1"
+            }
+          },
+          "address": {
+            "type": "string",
+            "x-stoplight": {
+              "id": "ddl2ult26myrl"
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-internal": false
+}
