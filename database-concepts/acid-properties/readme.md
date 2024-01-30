@@ -1,3 +1,33 @@
+## Database Transaction
+
+A transaction refers to a logical unit of work that consists of one or more operations that are executed as a single, indivisible unit. The purpose of a transaction is to ensure the consistency, integrity, and reliability of a database, even in the face of failures or errors.
+
+### **Why we need transaction instead of just simple scrips ?**  
+
+When we want to execute multiple scripts in a structured manner, and we can define what will happen if an error occurs or
+what we should do if part of the script failed. We will have the ability to reset our state to the previous consistent state. All the above
+functionalities are provided by transaction.  
+### Basic Structure of a transaction 
+
+- BEGIN Transaction (BEGIN,START)
+- SQL Statements  (INSERT,UPDATE,DELETE...)
+- END Transaction (COMMIT, ROLLBACK)
+
+**START TRANSACTION :** It indicates that the transaction is started.
+
+**COMMIT :** It indicates that the transaction completed successfully and all the DML performed since the start of the transaction are committed to the database as well as frees the resources held by the transaction.
+
+**ROLLBACK :** It will roll back the data to its previous state.
+
+**SAVEPOINT :** This is used for dividing or breaking a transaction into multiple units so that the user has a chance of roll backing a transaction up to a point or location. IT creates points within the groups of transactions in which to ROLLBACK.
+
+```mysql
+START TRANSACTION;
+INSERT INTO Book VALUES(5, 'Book-5', 5000, 300);
+UPDATE Book SET Price =3500 WHERE BookID = 5;
+COMMIT
+```
+
 ## ACID Properties
 
 ### Atomicity:
@@ -70,3 +100,8 @@ To ensure durability in database we shoud follow the below concepts
 - Commit Acknowledgment
 - Impact on Performance
 - Recovery Manager
+
+
+
+
+
