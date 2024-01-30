@@ -33,6 +33,33 @@ Specialized indexes for highly specific scenarios:
 - Function-based Index
 - Spatial Index
 
+## [B-tree :](https://en.wikipedia.org/wiki/B-tree)
+A B-tree is a widely used data structure in databases to organize and efficiently manage large datasets.
+
+A B-tree is a data structure that provides sorted data and allows searches, sequential access, attachments and removals in sorted order. The B-tree is highly capable of storing systems that write large blocks of data. The B-tree simplifies the binary search tree by allowing nodes with more than two children.  
+
+When B-tree comes to the database indexing, this data structure gets a little complicated because it doesn’t just have a key, it also has a value associated with the key. This value is a reference to the actual data record. The key and value together are called a payload.  
+
+- When you define an index on a column or set of columns in a database table, the database system creates a B-tree structure to represent that index.
+- n the B-tree index, each node contains key-value pairs.The key is the indexed value from the table, and the value is a reference or pointer to the corresponding row in the table.
+- The B-tree maintains a sorted order of keys, allowing for efficient search operations.
+- When a query involves a condition on the indexed column(s), the B-tree index is used to quickly locate the rows that satisfy the condition. The search operation starts at the root and traverses the tree to find the desired key or range of keys.
+- B-trees automatically balance themselves during insertions and deletions to maintain their logarithmic height. This ensures that search, insertion, and deletion operations remain efficient.
+- B-trees are designed to minimize disk I/O operations by ensuring that the tree remains balanced. This is crucial for performance, especially in disk-based storage systems.
+- Depending on the database system, B-trees can be used for both clustered and non-clustered indexes. A clustered index determines the physical order of rows in the table, while a non-clustered index maintains a separate sorted structure.
+
+### B+ tree : 
+B+ trees are commonly used in database indexing due to several advantages that make them well-suited for efficient storage and retrieval of data.  
+
+B+ trees maintain a balanced structure, ensuring that all leaf nodes are at the same level. This balance helps maintain optimal search, insert, and delete operations, resulting in consistent performance.
+
+B+ tree is another data structure that’s used to store data and looks almost the same as the B-tree. The only difference is that B+ tree stores data on the leaf nodes. This means that all non-leaf node values are duplicated in leaf nodes again.  
+
+Leaf nodes include all values and all the records are in sorted order. B+tree allows you to do the same search as B-tree, but it also allows you to  travel through all the values in a leaf node if we put a pointer to each leaf node.  
+
+![Screenshot (56)](https://github.com/learning-project-01/bookstore-app/assets/130679461/24d83871-d6a6-41a6-ac47-2fde468f8bb3)
+
+
 ## Example : Use case of Index
 
 Let's consider the below table with columns and data items.
