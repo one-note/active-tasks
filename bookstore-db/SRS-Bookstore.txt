@@ -1,0 +1,81 @@
+ Software Requirements Specification (SRS) for a Bookstore application
+
+1.Introduction-
+
+    Purpose: The Book Store Application aims to create a seamless and enjoyable online experience for customers to explore, discover, and purchase a diverse range of       books. Simultaneously, it provides features to manage inventory and streamline order processing.
+    Project Scope: It is a online system to encompasses user-friendly features for catalog navigation, precise search functionalities, secure user authentication,         intuitive shopping cart management for Books
+    Definitions, Acronyms, Abbreviations: User refers to individuals accessing the application and Admin Refers to individuals with administrative privileges within     the application.
+    System Description: The Book Store Application will be a dynamic and responsive web-based platform, offering an engaging interface for customers to explore an         extensive catalog of books. It will include a dedicated admin panel for administrators to efficiently manage the system
+
+2.Overall Description-
+
+Product Perspective:The Book Store App is a vital component of the bookstore's online presence, connecting customers with real-time inventory and seamless transactions.
+Product Functions:
+   - Book Search: Easily locate books by title, author, genre, or ISBN.
+   - Purchase and Payment: Streamlined checkout with multiple payment options.
+   - Inventory Tracking: Ensure accurate and instant updates on book availability.
+   - User Accounts: User-friendly registration, login, and profile management.
+   - Order Management: Track orders and provide administrators with efficient order fulfillment tools.
+   - Book Reviews and Ratings: Foster user engagement with book reviews and ratings.
+
+User Characteristics:
+   - Customers: Diverse technical skills, from basic browsing to account management.
+   - Administrators: Higher technical proficiency for inventory and order management.
+
+General Constraints:
+   - Compatibility: Web-based application compatible with standard browsers.
+   - Scalability: Designed to grow with increasing user base and book catalog.
+   - Budget and Time: Adherence to project budget and timeline.
+
+Assumptions and Dependencies:
+   - Book Suppliers: Assumes a reliable book supply chain.
+   - Payment Gateway: Dependency on a secure third-party payment system.
+   - Internet Connectivity: Assumes users have consistent internet access.
+
+3.Specific Requirements-
+
+Functional Requirements:
+   - Book catalog management (adding, editing, deleting books)
+   - User account management (registration, login, profile editing)
+   - Book search and filtering (by title, author, genre, ISBN, etc.)
+   - Shopping cart functionality
+   - Order processing and payment handling
+   - Inventory management (tracking stock levels, generating alerts)
+   - Order tracking and delivery status updates
+   - Customer reviews and ratings
+   - Reporting and analytics (sales data, customer behavior, inventory trends)
+Non-Functional Requirements:
+    - Usability (easy navigation, intuitive interface)
+    - Performance (response time, load capacity)
+    - Security (data protection, authentication, authorization)
+    - Reliability (error handling, uptime)
+    - Maintainability (ease of updates and bug fixes)
+    - Scalability (ability to handle growth in users and transactions)
+
+4.External Interface Requirements-
+
+   User Interfaces:The user interface will feature intuitive screen layouts, with clear menus, buttons, and forms.Users can easily navigate through the app to search    for books, manage their cart, and complete purchases.
+   
+   Hardware Interfaces: The application does not have specific hardware requirements.It should be compatible with standard devices such as laptops, tablets, and       smartphones.
+   
+   Software Interfaces:Integration with a secure third-party payment gateway for seamless transactions.Compatibility with popular web browsers (Chrome, Firefox,       Safari) for optimal user experience.
+  
+   Communication Interfaces:Email notifications for order confirmations, status updates, and promotional offers.Optional SMS alerts for critical updates, such as order    shipments or account security.
+
+5.Other Requirements-
+
+   Licensing Requirements: The application will operate under [Specify License Type] to ensure compliance with legal and ethical standards.
+   Users will agree to the terms and conditions outlined in the licensing agreement during the registration process.
+   
+   Legal Requirements:The system will adhere to relevant data privacy laws, ensuring the secure handling of user information.
+   Compliance with local and international regulations governing online transactions and customer data protection.
+
+6.Appendices-
+  
+   Glossary:
+   Cart: Virtual space where users can add and manage selected books before checkout.
+   ISBN: International Standard Book Number, a unique identifier for books.
+   Payment Gateway: Secure service for processing online payments.
+   
+   Analysis Models:Use case diagrams illustrating interactions between users, the bookstore app, and external systems.
+   Entity-Relationship Diagram (ERD) depicting the relationships between key database entities (users, books, orders).
